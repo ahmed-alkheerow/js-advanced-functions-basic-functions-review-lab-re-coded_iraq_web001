@@ -10,7 +10,7 @@ function mondayWork(activity="go to the office"){
 mondayWork();
 
 function wrapAdjective(visualFlair = "*" ) {
-  return function innerFunction(adjective ="special") {
+  return function (adjective ="special") {
     return `You are ${visualFlair}${adjective}${visualFlair}`
 
   }
